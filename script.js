@@ -1,8 +1,8 @@
 //your JS code here. If required.
  document.addEventListener('DOMContentLoaded', function() {
-     const p= document.createElement('p')        
+     const div= document.createElement('div')        
 	 
-	 p.textContent = 'DOM load success';
+	div.textContent = 'DOM load success';
         
-            document.body.appendChild(p);
+            document.body.appendChild(div);
         });
