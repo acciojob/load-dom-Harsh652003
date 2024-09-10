@@ -1,8 +1,8 @@
 //your JS code here. If required.
- document.addEventListener('DOMContentLoaded', function() {
-     const div= document.createElement('div')        
-	 
-	div.textContent = 'DOM load success';
-        
-            document.body.appendChild(div);
+ // JavaScript code to run when DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+          
+			const textNode = document.createTextNode('DOM load success');
+         
+            document.body.appendChild(textNode);
         });
